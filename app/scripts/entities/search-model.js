@@ -30,7 +30,7 @@
         
         var route = 'datasets';
         route += (api) ? '.json?' : '?';
-        route += this.getQueryString();
+        // route += this.getQueryString();
         return route;
       },
 
